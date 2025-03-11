@@ -1,0 +1,33 @@
+{
+  "_resourceType": "trigger",
+  "id": "832480b3-9c16-4350-9ee2-421eeb734bf5",
+  "name": "Door House",
+  "prefabId": "",
+  "x": 54,
+  "y": 9,
+  "symbol": "trigger_0",
+  "prefabScriptOverrides": {},
+  "width": 3,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "fcd4eba4-5188-4485-bcb6-57efb7ff0919",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 26
+        },
+        "direction": "up",
+        "fadeSpeed": "2"
+      },
+      "id": "dc6f2529-6986-4ded-b350-64993b2924b5"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 0
+}

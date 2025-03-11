@@ -1,0 +1,33 @@
+{
+  "_resourceType": "trigger",
+  "id": "d5585230-d82d-45a0-a18f-3efe7f35ceff",
+  "name": "Leave Padaria",
+  "prefabId": "",
+  "x": 9,
+  "y": 28,
+  "symbol": "trigger_5",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "6bed26b9-15ea-4703-b3e8-269321b09fcd",
+        "x": {
+          "type": "number",
+          "value": 6
+        },
+        "y": {
+          "type": "number",
+          "value": 25
+        },
+        "direction": "down",
+        "fadeSpeed": "2"
+      },
+      "id": "b68cffc4-e988-4500-a5a6-b8d22d1df76a"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 0
+}

@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "6bed26b9-15ea-4703-b3e8-269321b09fcd",
+  "_index": 0,
+  "name": "Map",
+  "backgroundId": "2f589e3a-a535-44b7-88f3-d397824ae917",
+  "tilesetId": "",
+  "width": 63,
+  "height": 64,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0016d+0f9+0022+0f1d+00e+0f2+002+0f9+00!0f2+003+0f2+00!0f2+00c+0f!003+0f9+00e+0f2+002+0f9+00!0f2+002+0f2+002+0f2+0010+0f9+00e+0f2+002+0f!007+0f!00!0f2+00!0f2+008+0f!002+0f!009+0f4+003+0f2+00e+0f2+002+0f9+00!0f2+00!0fb+002+0fe+003+0f2+0016e+0f2+003d+0f2+003d+0f2+0010+0fb+0022+0f2+0010+0f!008+0f2+0034+0f2+00!0f4+002+0f2+0035+0f2+004+0f!00!0f!002+0f!0033+0f2+004+0f3+002+0f2+0085+0f2+003d+0f2+002+0f9+0032+0f2+002+0f2+006+0f!0032+0f5+007+0f2+0032+0f2+00!0f!002+0f!002+0f!002+0f2+0031+0fe+00178+0fe+002+0f2+002c+0f2+00c+0f2+00!0f2+002b+0f2+002+0f4+008+0f4+002b+0f14+005f1+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_2",
+  "x": 584,
+  "y": 360,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "a1f5decb-6d51-4d1b-9fd7-835a73b0f149"
+}

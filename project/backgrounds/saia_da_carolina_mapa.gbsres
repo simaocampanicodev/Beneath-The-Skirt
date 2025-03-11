@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "2f589e3a-a535-44b7-88f3-d397824ae917",
+  "name": "saia_da_carolina_mapa",
+  "symbol": "bg_saia_da_carolina_mapa",
+  "width": 63,
+  "height": 64,
+  "imageWidth": 504,
+  "imageHeight": 512,
+  "filename": "saia_da_carolina_mapa.png",
+  "tileColors": "",
+  "autoColor": false
+}

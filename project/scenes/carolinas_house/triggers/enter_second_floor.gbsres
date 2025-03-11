@@ -1,0 +1,33 @@
+{
+  "_resourceType": "trigger",
+  "id": "79cf22fe-0de3-4624-953d-597e95d55c29",
+  "name": "Enter Second Floor",
+  "prefabId": "",
+  "x": 6,
+  "y": 3,
+  "symbol": "trigger_2",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 4,
+  "script": [
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "8d5b79b7-ff38-495d-8c6f-99e3cd3cf71b",
+        "x": {
+          "type": "number",
+          "value": 12
+        },
+        "y": {
+          "type": "number",
+          "value": 11
+        },
+        "direction": "left",
+        "fadeSpeed": "2"
+      },
+      "id": "74b95653-23db-4767-a7fe-ee2844ca5402"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 1
+}

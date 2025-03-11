@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "8d5b79b7-ff38-495d-8c6f-99e3cd3cf71b",
+  "_index": 2,
+  "name": "2 Floor",
+  "backgroundId": "66e4efcc-eb89-44ac-b124-997b6788f5ba",
+  "tilesetId": "",
+  "width": 25,
+  "height": 29,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "003+0fd+00c+0f!00b+0f!00c+0f5+003+0f5+00c+0f!003+0f!003+0f!003+0f!00c+0f!003+0f5+003+0f!00c+0f!00b+0f!00c+0f!00b+0f!00c+0f!00b+0f!00c+0f!00b+0f!00c+0f!00b+0f!00c+0f!0018+0f!0018+0f!0018+0f!00b+0f!00c+0f!00b+0f!00c+0fd+0014e+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_4",
+  "x": 744,
+  "y": 96,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "a1f5decb-6d51-4d1b-9fd7-835a73b0f149"
+}

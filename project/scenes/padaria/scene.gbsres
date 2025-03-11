@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "ecdc0470-d035-4840-8e29-ed41bf24b419",
+  "_index": 3,
+  "name": "Padaria",
+  "backgroundId": "ed93a27a-916d-45c0-b257-3178f69fb6e7",
+  "tilesetId": "",
+  "width": 25,
+  "height": 29,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "003+0fd+00c+0f!00b+0f!00c+0f!00b+0f!00c+0f!00b+0f!00c+0f!00b+0f!00c+0f!00b+0f!00c+0f!00b+0f!00c+0f!00b+0f!00c+0f!00b+0f!00c+0f!00b+0f!00c+0f!00b+0f!00c+0f!00b+0f!00c+0f!00b+0f!00c+0f!00b+0f!00c+0f!00b+0f!00c+0f14+005+0f3+002+0ff+005+0f14+005+0f!005+0f2+00!0f5+00!0f!003+0f!005+0f!00!0f!00c+0f5+005+0f!00!0f12+005+0f!00!0fe+003+0f!005+0f!0012+0f!005+0f!00b+0f3+00!0f4+005+0f!00b+0f3+00!0f4+005+0f6+004+0fa+00a+0f!004+0f!0013+0f!004+0f!0013+0f!004+0f!00b+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_5",
+  "x": 376,
+  "y": 440,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "a1f5decb-6d51-4d1b-9fd7-835a73b0f149"
+}
