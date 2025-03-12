@@ -8,12 +8,14 @@
 <br>
 <br>
 
-![](https://cdn.discordapp.com/attachments/1287494364360343624/1349172506115964959/Screenshot_1.png?ex=67d2224f&is=67d0d0cf&hm=e8460b5cabb83a1188b991406527cd05d14be3626d6edbdaa64775c4f7aeee0a&)
+![](https://cdn.discordapp.com/attachments/1287494364360343624/1349173393714315284/Screenshot_2.png?ex=67d22323&is=67d0d1a3&hm=028177e844548ca31f263ca62bbb7d602558a51e4d206a2451aa1103544bd34d&)
 
 
 <br>
 
 
 ***<p style="text-align:center;">Simão Campaniço a22408205 | Bernardo Aldeias a22405888 | Frederico Carvalho a22406033 | Diogo Oyaneder a22403396</p>***
-
+<br>
+<br>
+<br>
 ***<p style="text-align:center;">Universidade Lusófona - Videojogos</p>***
