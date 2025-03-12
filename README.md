@@ -17,5 +17,4 @@
 ***<p style="text-align:center;">Simão Campaniço a22408205 | Bernardo Aldeias a22405888 | Frederico Carvalho a22406033 | Diogo Oyaneder a22403396</p>***
 <br>
 <br>
-<br>
 ***<p style="text-align:center;">Universidade Lusófona - Videojogos</p>***
