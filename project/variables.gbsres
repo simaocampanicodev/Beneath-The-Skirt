@@ -1,4 +1,10 @@
 {
   "_resourceType": "variables",
-  "variables": []
+  "variables": [
+    {
+      "id": "0",
+      "name": "Bread",
+      "symbol": "var_bread"
+    }
+  ]
 }

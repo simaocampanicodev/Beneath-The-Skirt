@@ -1,0 +1,62 @@
+{
+  "_resourceType": "actor",
+  "id": "2ec47abb-9899-47b9-96da-9f91bd145eae",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "0dafbc9c-1a8f-4505-80fa-db6b1bc5ab2e",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_0",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Hi! Would you like\nto buy a bread?"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "22c82f0b-6029-48f1-bddd-20554bc9efe8"
+    },
+    {
+      "command": "EVENT_CHOICE",
+      "args": {
+        "variable": "0",
+        "trueText": "Yes",
+        "falseText": "No"
+      },
+      "id": "23e70f5e-1fa2-43f5-96bb-9b0c5f580db3"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 10,
+  "y": 22,
+  "_index": 0
+}
