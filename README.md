@@ -2,7 +2,7 @@
 <br>
 <br>
 
->Carolina is being judged by the world! She doesnt want to do the quest that the/n
+>Carolina is being judged by the world! She doesn't want to do the quest that the
 >society demands her to do! She wants to break free from the Skirt... 
 
 <br>
