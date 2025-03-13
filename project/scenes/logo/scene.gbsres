@@ -3,7 +3,7 @@
   "id": "84700eb7-c011-4804-ac92-a80fa8b826b3",
   "_index": 4,
   "name": "Logo",
-  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "backgroundId": "f15e1fc3-0fe8-48b5-ab97-de8bbcd45249",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -13,13 +13,13 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_0",
-  "x": 413.02766741243227,
-  "y": 93.59738883123586,
+  "x": 280,
+  "y": 80,
   "script": [
     {
       "command": "EVENT_WAIT",
       "args": {
-        "time": 0.5,
+        "time": 2,
         "frames": 30
       },
       "id": "6212a65d-04e9-4768-963b-eec279869d9d"

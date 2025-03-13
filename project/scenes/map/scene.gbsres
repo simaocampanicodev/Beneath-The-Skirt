@@ -10,7 +10,7 @@
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "0016d+0f9+0022+0f1d+00e+0f2+002+0f9+00!0f2+003+0f2+00!0f2+00c+0f!003+0f9+00e+0f2+002+0f9+00!0f2+002+0f2+002+0f2+0010+0f9+00e+0f2+002+0f!007+0f!00!0f2+00!0f2+008+0f!002+0f!009+0f4+003+0f2+00e+0f2+002+0f9+00!0f2+00!0fb+002+0fe+003+0f2+0016e+0f2+003d+0f2+003d+0f2+0010+0fb+0022+0f2+0010+0f!008+0f2+0034+0f2+00!0f4+002+0f2+0035+0f2+004+0f!00!0f!002+0f!0033+0f2+004+0f3+002+0f2+0085+0f2+003d+0f2+002+0f9+0032+0f2+002+0f2+006+0f!0032+0f5+007+0f2+0032+0f2+00!0f!002+0f!002+0f!002+0f2+0031+0fe+00178+0fe+002+0f2+002c+0f2+00c+0f2+00!0f2+002b+0f2+002+0f4+008+0f4+002b+0f14+005f1+",
+  "collisions": "0016d+0f9+0022+0f1d+00e+0f2+002+0f9+00!0f2+003+0f2+00!0f2+0010+0f9+00e+0f2+002+0f9+00!0f2+002+0f2+002+0f2+0010+0f9+00e+0f2+002+0f!007+0f!00!0f2+00!0f2+008+0f!002+0f!009+0f4+003+0f2+00e+0f2+002+0f9+00!0f2+00!0fb+002+0fe+003+0f2+0016e+0f2+003d+0f2+003d+0f2+0010+0fb+0022+0f2+0010+0f!008+0f2+0034+0f2+00!0f4+002+0f2+0035+0f2+004+0f!00!0f!002+0f!0033+0f2+004+0f3+002+0f2+0085+0f2+003d+0f2+002+0f9+0032+0f2+002+0f2+006+0f!0032+0f5+007+0f2+0032+0f2+00!0f!002+0f!002+0f!002+0f2+0031+0fe+00178+0fe+002+0f2+002c+0f2+00c+0f2+00!0f2+002b+0f2+002+0f!002+0f!008+0f4+002b+0f5+002+0fd+005f1+",
   "autoFadeSpeed": 1,
   "symbol": "scene_2",
   "x": 584,
@@ -19,7 +19,7 @@
     {
       "command": "EVENT_GROUP",
       "args": {
-        "__label": "Pause"
+        "__label": "Quests"
       },
       "children": {
         "true": [
@@ -38,7 +38,7 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "Game is paused,\ncontinue?"
+                      "Jogo pausado, ver\na missão?"
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -57,16 +57,16 @@
                     "closeDelayTime": 0.5,
                     "closeDelayFrames": 30
                   },
-                  "id": "07c43604-830e-46b8-96d8-b75b43796020"
+                  "id": "5f087301-bbcf-4db2-9b07-cec698611eb6"
                 },
                 {
                   "command": "EVENT_CHOICE",
                   "args": {
                     "variable": "L0",
-                    "trueText": "Continue",
-                    "falseText": "Quit"
+                    "trueText": "Sim",
+                    "falseText": "Não"
                   },
-                  "id": "fefca0bb-db0d-49d1-9af0-46aca82fe8c4"
+                  "id": "f93818f6-da6a-4796-a5ec-74ec8975966d"
                 },
                 {
                   "command": "EVENT_IF",
@@ -78,7 +78,7 @@
                         "value": "L0"
                       },
                       "valueB": {
-                        "type": "false"
+                        "type": "true"
                       }
                     },
                     "__collapseElse": true
@@ -86,34 +86,307 @@
                   "children": {
                     "true": [
                       {
-                        "command": "EVENT_SWITCH_SCENE",
+                        "command": "EVENT_IF",
                         "args": {
-                          "sceneId": "84700eb7-c011-4804-ac92-a80fa8b826b3",
-                          "x": {
-                            "type": "number",
-                            "value": 0
+                          "condition": {
+                            "type": "eq",
+                            "valueA": {
+                              "type": "variable",
+                              "value": "7"
+                            },
+                            "valueB": {
+                              "type": "number",
+                              "value": 0
+                            }
                           },
-                          "y": {
-                            "type": "number",
-                            "value": 0
-                          },
-                          "direction": "",
-                          "fadeSpeed": "2"
+                          "__collapseElse": true
                         },
-                        "id": "6f0525ac-1d5a-4d43-b81b-1df0c224e16e"
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "text": [
+                                  "Saia da casa e\nfale com o senhor."
+                                ],
+                                "__section": "text",
+                                "avatarId": "",
+                                "minHeight": 4,
+                                "maxHeight": 7,
+                                "textX": 1,
+                                "textY": 1,
+                                "textHeight": 5,
+                                "position": "bottom",
+                                "clearPrevious": true,
+                                "showFrame": "true",
+                                "speedIn": -1,
+                                "speedOut": -1,
+                                "closeWhen": "key",
+                                "closeButton": "a",
+                                "closeDelayTime": 0.5,
+                                "closeDelayFrames": 30
+                              },
+                              "id": "b2efedf2-c99f-42e7-8c15-13cb093c3339"
+                            }
+                          ],
+                          "false": []
+                        },
+                        "id": "cb4849e1-6504-43b2-8678-642979fc4449"
+                      },
+                      {
+                        "command": "EVENT_IF",
+                        "args": {
+                          "condition": {
+                            "type": "eq",
+                            "valueA": {
+                              "type": "variable",
+                              "value": "2"
+                            },
+                            "valueB": {
+                              "type": "number",
+                              "value": 1
+                            }
+                          },
+                          "__collapseElse": false
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "text": [
+                                  "Vá até à padaria\ncomprar uma tosta."
+                                ],
+                                "__section": "text",
+                                "avatarId": "",
+                                "minHeight": 4,
+                                "maxHeight": 7,
+                                "textX": 1,
+                                "textY": 1,
+                                "textHeight": 5,
+                                "position": "bottom",
+                                "clearPrevious": true,
+                                "showFrame": "true",
+                                "speedIn": -1,
+                                "speedOut": -1,
+                                "closeWhen": "key",
+                                "closeButton": "a",
+                                "closeDelayTime": 0.5,
+                                "closeDelayFrames": 30
+                              },
+                              "id": "eb9bec0f-f2ec-4530-822b-1fbc31d63657"
+                            }
+                          ],
+                          "false": []
+                        },
+                        "id": "7d85cb59-cf03-4121-8545-c191eb915fb0"
+                      },
+                      {
+                        "command": "EVENT_IF",
+                        "args": {
+                          "condition": {
+                            "type": "eq",
+                            "valueA": {
+                              "type": "variable",
+                              "value": "2"
+                            },
+                            "valueB": {
+                              "type": "number",
+                              "value": 2
+                            }
+                          },
+                          "__collapseElse": false
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "text": [
+                                  "Vá até casa e\ncozinhe a tosta."
+                                ],
+                                "__section": "text",
+                                "avatarId": "",
+                                "minHeight": 4,
+                                "maxHeight": 7,
+                                "textX": 1,
+                                "textY": 1,
+                                "textHeight": 5,
+                                "position": "bottom",
+                                "clearPrevious": true,
+                                "showFrame": "true",
+                                "speedIn": -1,
+                                "speedOut": -1,
+                                "closeWhen": "key",
+                                "closeButton": "a",
+                                "closeDelayTime": 0.5,
+                                "closeDelayFrames": 30
+                              },
+                              "id": "415226b7-12fb-4577-9549-7efb789afea3"
+                            }
+                          ],
+                          "false": []
+                        },
+                        "id": "ccd08f2b-a55b-4a96-99f9-1969b49c9988"
+                      },
+                      {
+                        "command": "EVENT_IF",
+                        "args": {
+                          "condition": {
+                            "type": "eq",
+                            "valueA": {
+                              "type": "variable",
+                              "value": "6"
+                            },
+                            "valueB": {
+                              "type": "number",
+                              "value": 1
+                            }
+                          },
+                          "__collapseElse": false
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "text": [
+                                  "Vá falar com o\nsenhor na rua",
+                                  "mais abaixo,\nperto do cercado."
+                                ],
+                                "__section": "text",
+                                "avatarId": "",
+                                "minHeight": 4,
+                                "maxHeight": 7,
+                                "textX": 1,
+                                "textY": 1,
+                                "textHeight": 5,
+                                "position": "bottom",
+                                "clearPrevious": true,
+                                "showFrame": "true",
+                                "speedIn": -1,
+                                "speedOut": -1,
+                                "closeWhen": "key",
+                                "closeButton": "a",
+                                "closeDelayTime": 0.5,
+                                "closeDelayFrames": 30
+                              },
+                              "id": "610b3b0b-50a4-4794-8443-29b410ce6724"
+                            }
+                          ],
+                          "false": []
+                        },
+                        "id": "4be9e035-1f99-4525-b703-b2b8227863df"
+                      },
+                      {
+                        "command": "EVENT_IF",
+                        "args": {
+                          "condition": {
+                            "type": "eq",
+                            "valueA": {
+                              "type": "variable",
+                              "value": "9"
+                            },
+                            "valueB": {
+                              "type": "number",
+                              "value": 1
+                            }
+                          },
+                          "__collapseElse": true
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "text": [
+                                  "Retire leite das\nvacas."
+                                ],
+                                "__section": "text",
+                                "avatarId": "",
+                                "minHeight": 4,
+                                "maxHeight": 7,
+                                "textX": 1,
+                                "textY": 1,
+                                "textHeight": 5,
+                                "position": "bottom",
+                                "clearPrevious": true,
+                                "showFrame": "true",
+                                "speedIn": -1,
+                                "speedOut": -1,
+                                "closeWhen": "key",
+                                "closeButton": "a",
+                                "closeDelayTime": 0.5,
+                                "closeDelayFrames": 30
+                              },
+                              "id": "8a6bca29-da50-40df-8842-7d39b691df8c"
+                            }
+                          ],
+                          "false": []
+                        },
+                        "id": "0878a378-64af-4454-8e08-3f61d22f7a5a"
+                      },
+                      {
+                        "command": "EVENT_IF",
+                        "args": {
+                          "condition": {
+                            "type": "eq",
+                            "valueA": {
+                              "type": "variable",
+                              "value": "9"
+                            },
+                            "valueB": {
+                              "type": "number",
+                              "value": 2
+                            }
+                          },
+                          "__collapseElse": true
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "text": [
+                                  "Vá ao baú que está\nno cercado da sua",
+                                  "casa e retire o\nbalde com leite."
+                                ],
+                                "__section": "text",
+                                "avatarId": "",
+                                "minHeight": 4,
+                                "maxHeight": 7,
+                                "textX": 1,
+                                "textY": 1,
+                                "textHeight": 5,
+                                "position": "bottom",
+                                "clearPrevious": true,
+                                "showFrame": "true",
+                                "speedIn": -1,
+                                "speedOut": -1,
+                                "closeWhen": "key",
+                                "closeButton": "a",
+                                "closeDelayTime": 0.5,
+                                "closeDelayFrames": 30
+                              },
+                              "id": "ac3ba09f-60d5-435c-ad5e-3793b04dc349"
+                            }
+                          ],
+                          "false": []
+                        },
+                        "id": "619195a7-1ff2-49fd-89a4-e79fca9c4648"
                       }
                     ],
                     "false": []
                   },
-                  "id": "271912a1-a055-4e31-909c-cf6389c52d34"
+                  "id": "989d6a9e-8939-44d7-b8d8-632b5660c83e"
                 }
               ]
             },
-            "id": "d6bca6fc-2d2d-4d4d-ae56-3c6ea877312e"
+            "id": "80fd8327-a48d-417a-b59b-74ba63451076"
           }
         ]
       },
-      "id": "16570f21-58bb-4a36-80a3-cf63acf4af31"
+      "id": "01eefaa7-cfd7-4e64-83d9-cbaf6b483f1a"
     }
   ],
   "playerHit1Script": [],

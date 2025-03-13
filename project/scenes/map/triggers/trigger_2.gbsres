@@ -1,0 +1,142 @@
+{
+  "_resourceType": "trigger",
+  "id": "a48021e0-050e-4966-8b25-1e5b49adf878",
+  "name": "",
+  "prefabId": "",
+  "x": 43,
+  "y": 37,
+  "symbol": "trigger_8",
+  "prefabScriptOverrides": {},
+  "width": 7,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "9"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Deseja retirar\no leite da vaca?"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "83771dde-53e8-4d95-9de6-db3e51539277"
+          },
+          {
+            "command": "EVENT_MENU",
+            "args": {
+              "variable": "13",
+              "items": 2,
+              "option1": "Sim",
+              "option2": "Não",
+              "option3": "",
+              "option4": "",
+              "option5": "",
+              "option6": "",
+              "option7": "",
+              "option8": "",
+              "cancelOnB": false,
+              "layout": "menu"
+            },
+            "id": "75326742-3834-4668-a854-ed55fea279c0"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "13"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 1
+                }
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Retirou o leite\ncom sucesso.",
+                      "Entregue ele\npara o senhor."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "39afeb8a-6b1c-4ca3-8493-4f76ab1a709b"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "10",
+                    "value": {
+                      "type": "number",
+                      "value": 1
+                    }
+                  },
+                  "id": "8135c49d-6dd7-4988-8069-8f94eaa58ac6"
+                }
+              ],
+              "false": []
+            },
+            "id": "bb973c6f-3471-475e-b944-34102843966f"
+          }
+        ],
+        "false": []
+      },
+      "id": "9e214dcc-6d60-4512-ba50-de91c9bd4833"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 3
+}

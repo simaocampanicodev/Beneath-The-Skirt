@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "392070a8-0bd5-459b-bfd3-6b5ab710e0d8",
+  "name": "saia_da_carolina_menu",
+  "symbol": "bg_saia_da_carolina_menu",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "saia_da_carolina_menu.png",
+  "tileColors": "",
+  "autoColor": false
+}

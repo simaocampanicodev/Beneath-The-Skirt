@@ -1,0 +1,142 @@
+{
+  "_resourceType": "trigger",
+  "id": "378a43d7-ffaa-41f6-8e5f-d4dfaf672160",
+  "name": "",
+  "prefabId": "",
+  "x": 46,
+  "y": 7,
+  "symbol": "trigger_7",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "9"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 2
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Deseja procurar\npelo leite?"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "42e50680-a1b7-487f-a36e-63fe0d89507c"
+          },
+          {
+            "command": "EVENT_MENU",
+            "args": {
+              "variable": "12",
+              "items": 2,
+              "option1": "Sim",
+              "option2": "Não",
+              "option3": "",
+              "option4": "",
+              "option5": "",
+              "option6": "",
+              "option7": "",
+              "option8": "",
+              "cancelOnB": false,
+              "layout": "dialogue"
+            },
+            "id": "59843707-bac0-4c3e-b152-dca71b5a699c"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "12"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 1
+                }
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Você retirou o\nleite de dentro",
+                      "do baú, entregue\nao senhor."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "a2921825-637a-43ea-b34e-742a751ffed3"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "11",
+                    "value": {
+                      "type": "number",
+                      "value": 1
+                    }
+                  },
+                  "id": "9d386b8b-16ca-4f3e-89df-b2d7601eecc9"
+                }
+              ],
+              "false": []
+            },
+            "id": "2f7fe457-3a41-4416-9ce8-35adbe6eba12"
+          }
+        ],
+        "false": []
+      },
+      "id": "85878d31-0323-4b79-9f18-91675b59b20f"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 2
+}

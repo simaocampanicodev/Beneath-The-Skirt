@@ -8,5 +8,6 @@
   "imageWidth": 160,
   "imageHeight": 144,
   "filename": "saia_da_carolina_lista1.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

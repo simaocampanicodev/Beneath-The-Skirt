@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "f15e1fc3-0fe8-48b5-ab97-de8bbcd45249",
+  "name": "splash_screen",
+  "symbol": "bg_splash_screen",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "splash_screen.png",
+  "tileColors": "",
+  "autoColor": false
+}

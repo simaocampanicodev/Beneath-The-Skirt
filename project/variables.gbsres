@@ -5,6 +5,91 @@
       "id": "0",
       "name": "Bread",
       "symbol": "var_bread"
+    },
+    {
+      "id": "1",
+      "name": "Quest1",
+      "symbol": "var_quest1"
+    },
+    {
+      "id": "2",
+      "name": "Quest1Choose",
+      "symbol": "var_quest1choose"
+    },
+    {
+      "id": "3",
+      "name": "Cozinhar",
+      "symbol": "var_cozinhar_1"
+    },
+    {
+      "id": "c93f8a2f-db94-4696-b1b0-bf91d814001b__L5",
+      "name": "Start",
+      "symbol": "var_start"
+    },
+    {
+      "id": "8d5b79b7-ff38-495d-8c6f-99e3cd3cf71b__L0",
+      "name": "SeeQuests",
+      "symbol": "var_seequests"
+    },
+    {
+      "id": "4",
+      "name": "ComprarTosta",
+      "symbol": "var_comprartosta"
+    },
+    {
+      "id": "5",
+      "name": "Tosta",
+      "symbol": "var_tosta"
+    },
+    {
+      "id": "46df07a5-77cc-451d-a82f-f9fd0deb391b__L0",
+      "name": "Local 0",
+      "symbol": "var_local_0"
+    },
+    {
+      "id": "6",
+      "name": "Quests",
+      "symbol": "var_quests"
+    },
+    {
+      "id": "7",
+      "name": "SeenNPC1",
+      "symbol": "var_seennpc1"
+    },
+    {
+      "id": "8",
+      "name": "SeenNPC2",
+      "symbol": "var_seennpc2"
+    },
+    {
+      "id": "9",
+      "name": "Quest2Choose",
+      "symbol": "var_quest2choose"
+    },
+    {
+      "id": "74d791c5-eebb-497e-af0c-23f6568f3c75__L0",
+      "name": "Local 0",
+      "symbol": "var_local_1"
+    },
+    {
+      "id": "10",
+      "name": "Leite",
+      "symbol": "var_leite"
+    },
+    {
+      "id": "11",
+      "name": "Milk",
+      "symbol": "var_milk"
+    },
+    {
+      "id": "12",
+      "name": "PegarMilk",
+      "symbol": "var_pegarmilk"
+    },
+    {
+      "id": "13",
+      "name": "PegarLeite",
+      "symbol": "var_pegarleite"
     }
   ]
 }
