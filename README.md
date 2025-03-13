@@ -8,7 +8,7 @@
 <br>
 <br>
 
-![](https://cdn.discordapp.com/attachments/1287494364360343624/1349173393714315284/Screenshot_2.png?ex=67d22323&is=67d0d1a3&hm=028177e844548ca31f263ca62bbb7d602558a51e4d206a2451aa1103544bd34d&)
+![](https://media.discordapp.net/attachments/1345489286983716950/1349535899930857522/Screenshot_1.png?ex=67d374bf&is=67d2233f&hm=cbe62b93d9bb56f88d5c7eec25e5d76dbe488d3546db8c2b007447c339a4338c&=&format=webp&quality=lossless&width=753&height=675)
 
 
 <br>
