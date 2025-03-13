@@ -6,7 +6,7 @@
 >society demands her to do! She wants to break free from the Skirt... 
 <br>
 
-[](https://frederico-carvalho.itch.io/beneath-the-skirt)
+[Click here to access the itch.io page of the game](https://frederico-carvalho.itch.io/beneath-the-skirt)
 
 <br>
 <br>
