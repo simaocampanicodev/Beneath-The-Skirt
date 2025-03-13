@@ -5,7 +5,7 @@
 >Carolina is being judged by the world! She doesn't want to do the quest that the
 >society demands her to do! She wants to break free from the Skirt... 
 <br>
-[Click here to access the itch.io of the game](https://frederico-carvalho.itch.io/beneath-the-skirt)
+![Click here to access the itch.io of the game](https://frederico-carvalho.itch.io/beneath-the-skirt)
 <br>
 <br>
 
